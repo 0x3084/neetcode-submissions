@@ -20,5 +20,3 @@ class Solution:
                 left = mid + 1
 
         return -1
-s = Solution()
-print(s.search(sorted([1, 3, 5, 7, 9, 12, 15]), target = 9))
